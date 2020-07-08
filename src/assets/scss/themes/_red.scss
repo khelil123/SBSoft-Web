@@ -1,0 +1,113 @@
+
+.theme-red {
+  .text-custom {
+    color: #fb3e3e !important;
+  }
+  .read-btn {
+    color: #fb3e3e !important;
+  }
+  .navbar-custom.navbar-white {
+    .navbar-nav {
+      li.active {
+        a {
+          color: #fb3e3e !important;
+        }
+      }
+      li {
+        a {
+          &:hover {
+            color: #fb3e3e !important;
+          }
+          &:focus {
+            color: #fb3e3e !important;
+          }
+          &:active {
+            color: #fb3e3e !important;
+          }
+        }
+      }
+    }
+  }
+  .play-btn {
+    color: #fb3e3e !important;
+    border-color: #fb3e3e !important;
+  }
+  .blog-title {
+    &:hover {
+      color: #fb3e3e !important;
+    }
+  }
+  .social-icon {
+    &:hover {
+      i {
+        color: #fb3e3e !important;
+      }
+    }
+  }
+  .section-title-border {
+    background-color: #fb3e3e;
+  }
+  .services-box {
+    &:hover {
+      i {
+        background-color: #fb3e3e;
+      }
+    }
+  }
+  .bg-custom {
+    background-color: #fb3e3e;
+  }
+  .btn-custom {
+    background-color: #fb3e3e;
+    border-color: #fb3e3e !important;
+    &:hover {
+      background-color: #b90334;
+      background-color: #b90334;
+      border-color: #b90334 !important;
+      border-color: #b90334 !important;
+    }
+    &:focus {
+      background-color: #b90334;
+      background-color: #b90334;
+      border-color: #b90334 !important;
+      border-color: #b90334 !important;
+    }
+    &:active {
+      background-color: #b90334;
+      background-color: #b90334;
+      border-color: #b90334 !important;
+      border-color: #b90334 !important;
+    }
+  }
+  .features-item-list {
+    li {
+      &:before {
+        background-color: #fb3e3e;
+      }
+    }
+  }
+  .process-left-icon-1 {
+    i {
+      background-color: #fb3e3e;
+    }
+  }
+  .process-left-icon-2 {
+    i {
+      background-color: #fb3e3e;
+    }
+  }
+  .btn-custom.active {
+    background-color: #b90334;
+    border-color: #b90334 !important;
+  }
+  .btn-custom.focus {
+    background-color: #b90334;
+    border-color: #b90334 !important;
+  }
+  .open {
+    > .dropdown-toggle.btn-custom {
+      background-color: #b90334;
+      border-color: #b90334 !important;
+    }
+  }
+}

@@ -1,0 +1,112 @@
+.theme-cyan {
+  .text-custom {
+    color: #00e6e6 !important;
+  }
+  .read-btn {
+    color: #00e6e6 !important;
+  }
+  .navbar-custom.navbar-white {
+    .navbar-nav {
+      li.active {
+        a {
+          color: #00e6e6 !important;
+        }
+      }
+      li {
+        a {
+          &:hover {
+            color: #00e6e6 !important;
+          }
+          &:focus {
+            color: #00e6e6 !important;
+          }
+          &:active {
+            color: #00e6e6 !important;
+          }
+        }
+      }
+    }
+  }
+  .play-btn {
+    color: #00e6e6 !important;
+    border-color: #00e6e6 !important;
+  }
+  .blog-title {
+    &:hover {
+      color: #00e6e6 !important;
+    }
+  }
+  .social-icon {
+    &:hover {
+      i {
+        color: #00e6e6 !important;
+      }
+    }
+  }
+  .section-title-border {
+    background-color: #00e6e6 !important;
+  }
+  .services-box {
+    &:hover {
+      i {
+        background-color: #00e6e6 !important;
+      }
+    }
+  }
+  .bg-custom {
+    background-color: #00e6e6 !important;
+  }
+  .btn-custom {
+    background-color: #00e6e6 !important;
+    border-color: #00e6e6 !important;
+    &:hover {
+      background-color: #00cccc !important;
+      background-color: #00cccc !important;
+      border-color: #00cccc !important;
+      border-color: #00cccc !important;
+    }
+    &:focus {
+      background-color: #00cccc !important;
+      background-color: #00cccc !important;
+      border-color: #00cccc !important;
+      border-color: #00cccc !important;
+    }
+    &:active {
+      background-color: #00cccc !important;
+      background-color: #00cccc !important;
+      border-color: #00cccc !important;
+      border-color: #00cccc !important;
+    }
+  }
+  .features-item-list {
+    li {
+      &:before {
+        background-color: #00e6e6 !important;
+      }
+    }
+  }
+  .process-left-icon-1 {
+    i {
+      background-color: #00e6e6 !important;
+    }
+  }
+  .process-left-icon-2 {
+    i {
+      background-color: #00e6e6 !important;
+    }
+  }
+  .btn-custom.active {
+    background-color: #00cccc !important;
+    border-color: #00cccc !important;
+  }
+  .btn-custom.focus {
+    background-color: #00cccc !important;
+    border-color: #00cccc !important;
+  }
+  .open {
+    > .dropdown-toggle.btn-custom {
+      background-color: #00cccc !important;
+      border-color: #00cccc !important;
+    }
+  }
+}

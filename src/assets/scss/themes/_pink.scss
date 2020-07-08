@@ -1,0 +1,112 @@
+.theme-pink {
+.text-custom {
+	color: #f85f89 !important;
+}
+.read-btn {
+	color: #f85f89 !important;
+}
+.navbar-custom.navbar-white {
+	.navbar-nav {
+		li.active {
+			a {
+				color: #f85f89 !important;
+			}
+		}
+		li {
+			a {
+				&:hover {
+					color: #f85f89 !important;
+				}
+				&:focus {
+					color: #f85f89 !important;
+				}
+				&:active {
+					color: #f85f89 !important;
+				}
+			}
+		}
+	}
+}
+.play-btn {
+	color: #f85f89 !important;
+	border-color: #f85f89 !important;
+}
+.blog-title {
+	&:hover {
+		color: #f85f89 !important;
+	}
+}
+.social-icon {
+	&:hover {
+		i {
+			color: #f85f89 !important;
+		}
+	}
+}
+.section-title-border {
+	background-color: #f85f89 !important;
+}
+.services-box {
+	&:hover {
+		i {
+			background-color: #f85f89 !important;
+		}
+	}
+}
+.bg-custom {
+	background-color: #f85f89 !important;
+}
+.btn-custom {
+	background-color: #f85f89 !important;
+	border-color: #f85f89 !important;
+	&:hover {
+		background-color: #f74777 !important;
+		background-color: #f74777 !important;
+		border-color: #f74777 !important;
+		border-color: #f74777 !important;
+	}
+	&:focus {
+		background-color: #f74777 !important;
+		background-color: #f74777 !important;
+		border-color: #f74777 !important;
+		border-color: #f74777 !important;
+	}
+	&:active {
+		background-color: #f74777 !important;
+		background-color: #f74777 !important;
+		border-color: #f74777 !important;
+		border-color: #f74777 !important;
+	}
+}
+.features-item-list {
+	li {
+		&:before {
+			background-color: #f85f89 !important;
+		}
+	}
+}
+.process-left-icon-1 {
+	i {
+		background-color: #f85f89 !important;
+	}
+}
+.process-left-icon-2 {
+	i {
+		background-color: #f85f89 !important;
+	}
+}
+.btn-custom.active {
+	background-color: #f74777 !important;
+	border-color: #f74777 !important;
+}
+.btn-custom.focus {
+	background-color: #f74777 !important;
+	border-color: #f74777 !important;
+}
+.open {
+	>.dropdown-toggle.btn-custom {
+		background-color: #f74777 !important;
+		border-color: #f74777 !important;
+	}
+}
+}

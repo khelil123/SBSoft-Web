@@ -1,0 +1,83 @@
+<footer class="footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-4 margin-t-20">
+                <h4>SBSOFT</h4>
+                <div class="text-muted margin-t-20">
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Process</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 margin-t-20">
+                <h4>Contact</h4>
+                <div class="text-muted margin-t-20">
+                    <ul class="list-unstyled footer-list">
+                        <li>
+                            <p class=""><i class="pe-7s-mail-open"></i>&nbsp; Sb.Soft@gmail.com</p>
+                        </li>
+                        <li>
+                            <p class="margin-b-0"><i class="pe-7s-call"></i> &nbsp;+216 54 183 189</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="margin-b-0"><i class="pe-7s-call"></i> &nbsp;+216 54 183 189</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 margin-t-20">
+                <h4>Links</h4>
+                <div class="text-muted margin-t-20">
+                    <ul class="list-unstyled footer-list">
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Disscusion</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<div id="style-switcher" [style.left]="switch == 0 ? '0px' : '-189px'">
+    <div>
+        <h3>Select your color </h3>
+        <ul class="pattern">
+            <li>
+                <a (click)="onChangeColor('red')" class="color1" routerLink="#"></a>
+            </li>
+            <li>
+                <a class="color2" (click)="onChangeColor('green')" routerLink="#"></a>
+            </li>
+            <li>
+                <a class="color3" (click)="onChangeColor('pink')" routerLink="#"></a>
+            </li>
+            <li>
+                <a class="color4" (click)="onChangeColor('cyan')" routerLink="#"></a>
+            </li>
+            <li>
+                <a class="color5" (click)="onChangeColor('purple')" routerLink="#"></a>
+            </li>
+            <li>
+                <a class="color6" (click)="onChangeColor('blue')" routerLink="#"></a>
+            </li>
+            <li>
+                <a class="color7" (click)="onChangeColor('orange')" routerLink="#"></a>
+            </li>
+            <li>
+                <a class="color8" (click)="onChangeColor('yellow')" routerLink="#"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="bottom">
+        <a routerLink="#" class="settings" (click)="onChangeSwitch()"><i class="mdi mdi-settings mdi-spin"></i></a>
+    </div>
+</div>

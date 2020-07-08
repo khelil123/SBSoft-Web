@@ -1,0 +1,112 @@
+.theme-green {
+.text-custom {
+	color: #1bbc9d !important;
+}
+.read-btn {
+	color: #1bbc9d !important;
+}
+.navbar-custom.navbar-white {
+	.navbar-nav {
+		li.active {
+			a {
+				color: #1bbc9d !important;
+			}
+		}
+		li {
+			a {
+				&:hover {
+					color: #1bbc9d !important;
+				}
+				&:focus {
+					color: #1bbc9d !important;
+				}
+				&:active {
+					color: #1bbc9d !important;
+				}
+			}
+		}
+	}
+}
+.play-btn {
+	color: #1bbc9d !important;
+	border-color: #1bbc9d !important;
+}
+.blog-title {
+	&:hover {
+		color: #1bbc9d !important;
+	}
+}
+.social-icon {
+	&:hover {
+		i {
+			color: #1bbc9d !important;
+		}
+	}
+}
+.section-title-border {
+	background-color: #1bbc9d !important;
+}
+.services-box {
+	&:hover {
+		i {
+			background-color: #1bbc9d !important;
+		}
+	}
+}
+.bg-custom {
+	background-color: #1bbc9d !important;
+}
+.btn-custom {
+	background-color: #1bbc9d !important;
+	border-color: #1bbc9d !important;
+	&:hover {
+		background-color: #159078 !important;
+		background-color: #159078 !important;
+		border-color: #159078 !important;
+		border-color: #159078 !important;
+	}
+	&:focus {
+		background-color: #159078 !important;
+		background-color: #159078 !important;
+		border-color: #159078 !important;
+		border-color: #159078 !important;
+	}
+	&:active {
+		background-color: #159078 !important;
+		background-color: #159078 !important;
+		border-color: #159078 !important;
+		border-color: #159078 !important;
+	}
+}
+.features-item-list {
+	li {
+		&:before {
+			background-color: #1bbc9d !important;
+		}
+	}
+}
+.process-left-icon-1 {
+	i {
+		background-color: #1bbc9d !important;
+	}
+}
+.process-left-icon-2 {
+	i {
+		background-color: #1bbc9d !important;
+	}
+}
+.btn-custom.active {
+	background-color: #159078 !important;
+	border-color: #159078 !important;
+}
+.btn-custom.focus {
+	background-color: #159078 !important;
+	border-color: #159078 !important;
+}
+.open {
+	>.dropdown-toggle.btn-custom {
+		background-color: #159078 !important;
+		border-color: #159078 !important;
+	}
+}
+}

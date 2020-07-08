@@ -1,0 +1,49 @@
+<section class="section bg-home home-half" id="home" data-image-src="assets/images/bg-home.jpg">
+    <div class="bg-overlay"></div>
+    <div class="display-table">
+        <div class="display-table-cell">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-white text-center">
+                        <h1 class="home-title">We help clients to find what they're looking for</h1>
+                        <p class="padding-t-15 home-desc">We welcome you to our website.</p>
+                        <p class="play-shadow margin-t-30 margin-l-r-auto"><a (click)="openWindowCustomClass(content)" class="play-btn video-play-icon"><i class="mdi mdi-play text-center"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wave-effect wave-anim">
+        <div class="waves-shape shape-one">
+            <div class="wave wave-one" style="background-image: url('assets/images/wave-shape/wave1.png')"></div>
+        </div>
+        <div class="waves-shape shape-two">
+            <div class="wave wave-two" style="background-image: url('assets/images/wave-shape/wave2.png')"></div>
+        </div>
+        <div class="waves-shape shape-three">
+            <div class="wave wave-three" style="background-image: url('assets/images/wave-shape/wave3.png')">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<ng-template #content let-modal>
+    <div class="modal-header">
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">&times;</span>
+            </button>
+    </div>
+    <div class="modal-body">
+        <youtube-player [videoId]="id" (ready)="savePlayer($event)" height="450" width="780" (change)="onStateChange($event)" [playerVars]="playerVars">
+        </youtube-player>
+    </div>
+</ng-template>
+
+<app-services></app-services>
+<app-about></app-about>
+<app-team></app-team>
+<app-work></app-work>
+<app-contact></app-contact>
+<app-getstart></app-getstart>

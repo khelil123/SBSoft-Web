@@ -1,0 +1,114 @@
+
+.theme-blue {
+    .text-custom {
+      color: #2762da !important;
+    }
+    .read-btn {
+      color: #2762da !important;
+    }
+    .navbar-custom.navbar-white {
+      .navbar-nav {
+        li.active {
+          a {
+            color: #2762da !important;
+          }
+        }
+        li {
+          a {
+            &:hover {
+              color: #2762da !important;
+            }
+            &:focus {
+              color: #2762da !important;
+            }
+            &:active {
+              color: #2762da !important;
+            }
+          }
+        }
+      }
+    }
+    .play-btn {
+      color: #2762da !important;
+      border-color: #2762da !important;
+    }
+    .blog-title {
+      &:hover {
+        color: #2762da !important;
+      }
+    }
+    .social-icon {
+      &:hover {
+        i {
+          color: #2762da !important;
+        }
+      }
+    }
+    .section-title-border {
+      background-color: #2762da !important;
+    }
+    .services-box {
+      &:hover {
+        i {
+          background-color: #2762da !important;
+        }
+      }
+    }
+    .bg-custom {
+      background-color: #2762da !important;
+    }
+    .btn-custom {
+      background-color: #2762da !important;
+      border-color: #2762da !important;
+      &:hover {
+        background-color: #2255bd !important;
+        background-color: #2255bd !important;
+        border-color: #2255bd !important;
+        border-color: #2255bd !important;
+      }
+      &:focus {
+        background-color: #2255bd !important;
+        background-color: #2255bd !important;
+        border-color: #2255bd !important;
+        border-color: #2255bd !important;
+      }
+      &:active {
+        background-color: #2255bd !important;
+        background-color: #2255bd !important;
+        border-color: #2255bd !important;
+        border-color: #2255bd !important;
+      }
+    }
+    .features-item-list {
+      li {
+        &:before {
+          background-color: #2762da !important;
+        }
+      }
+    }
+    .process-left-icon-1 {
+      i {
+        background-color: #2762da !important;
+      }
+    }
+    .process-left-icon-2 {
+      i {
+        background-color: #2762da !important;
+      }
+    }
+    .btn-custom.active {
+      background-color: #2255bd !important;
+      border-color: #2255bd !important;
+    }
+    .btn-custom.focus {
+      background-color: #2255bd !important;
+      border-color: #2255bd !important;
+    }
+    .open {
+      > .dropdown-toggle.btn-custom {
+        background-color: #2255bd !important;
+        border-color: #2255bd !important;
+      }
+    }
+  }
+  

@@ -1,0 +1,39 @@
+<nav id="navbar1" class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark">
+    <div class="container">
+        <a class="navbar-brand logo text-uppercase" routerLink="/">
+          SBSOFT
+      </a>
+        <button id="menu_button" class="navbar-toggler" (click)="toggleMenu()" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="mdi mdi-menu"></i>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse" scrollSpy>
+            <ul class="navbar-nav navbar-center" id="mySidenav" style="margin-left: 165px;">
+                <li class="nav-item">
+                    <a data="id_home" [ngx-scroll-to]="'#home'" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a data="id_services" [ngx-scroll-to]="'#services'" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">About US</a>
+                </li>
+                <li class="nav-item">
+                    <a data="id_features" [ngx-scroll-to]="'#features'" class="nav-link">Process</a>
+                </li>
+                <li class="nav-item">
+                    <a data="id_team" [ngx-scroll-to]="'#team'" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a data="id_contact" [ngx-scroll-to]="'#contact'" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-button ml-auto">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <button type="button" class="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Try it Free</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

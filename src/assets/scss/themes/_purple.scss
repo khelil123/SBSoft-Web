@@ -1,0 +1,112 @@
+.theme-purple {
+.text-custom {
+	color: #704fff !important;
+}
+.read-btn {
+	color: #704fff !important;
+}
+.navbar-custom.navbar-white {
+	.navbar-nav {
+		li.active {
+			a {
+				color: #704fff !important;
+			}
+		}
+		li {
+			a {
+				&:hover {
+					color: #704fff !important;
+				}
+				&:focus {
+					color: #704fff !important;
+				}
+				&:active {
+					color: #704fff !important;
+				}
+			}
+		}
+	}
+}
+.play-btn {
+	color: #704fff !important;
+	border-color: #704fff !important;
+}
+.blog-title {
+	&:hover {
+		color: #704fff !important;
+	}
+}
+.social-icon {
+	&:hover {
+		i {
+			color: #704fff !important;
+		}
+	}
+}
+.section-title-border {
+	background-color: #704fff !important;
+}
+.services-box {
+	&:hover {
+		i {
+			background-color: #704fff !important;
+		}
+	}
+}
+.bg-custom {
+	background-color: #704fff !important;
+}
+.btn-custom {
+	background-color: #704fff !important;
+	border-color: #704fff !important;
+	&:hover {
+		background-color: #4f2ce4 !important;
+		background-color: #4f2ce4 !important;
+		border-color: #4f2ce4 !important;
+		border-color: #4f2ce4 !important;
+	}
+	&:focus {
+		background-color: #4f2ce4 !important;
+		background-color: #4f2ce4 !important;
+		border-color: #4f2ce4 !important;
+		border-color: #4f2ce4 !important;
+	}
+	&:active {
+		background-color: #4f2ce4 !important;
+		background-color: #4f2ce4 !important;
+		border-color: #4f2ce4 !important;
+		border-color: #4f2ce4 !important;
+	}
+}
+.features-item-list {
+	li {
+		&:before {
+			background-color: #704fff !important;
+		}
+	}
+}
+.process-left-icon-1 {
+	i {
+		background-color: #704fff !important;
+	}
+}
+.process-left-icon-2 {
+	i {
+		background-color: #704fff !important;
+	}
+}
+.btn-custom.active {
+	background-color: #4f2ce4 !important;
+	border-color: #4f2ce4 !important;
+}
+.btn-custom.focus {
+	background-color: #4f2ce4 !important;
+	border-color: #4f2ce4 !important;
+}
+.open {
+	>.dropdown-toggle.btn-custom {
+		background-color: #4f2ce4 !important;
+		border-color: #4f2ce4 !important;
+	}
+}
+}

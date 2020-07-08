@@ -1,0 +1,112 @@
+.theme-orange {
+.text-custom {
+	color: #f09105 !important;
+}
+.read-btn {
+	color: #f09105 !important;
+}
+.navbar-custom.navbar-white {
+	.navbar-nav {
+		li.active {
+			a {
+				color: #f09105 !important;
+			}
+		}
+		li {
+			a {
+				&:hover {
+					color: #f09105 !important;
+				}
+				&:focus {
+					color: #f09105 !important;
+				}
+				&:active {
+					color: #f09105 !important;
+				}
+			}
+		}
+	}
+}
+.play-btn {
+	color: #f09105 !important;
+	border-color: #f09105 !important;
+}
+.blog-title {
+	&:hover {
+		color: #f09105 !important;
+	}
+}
+.social-icon {
+	&:hover {
+		i {
+			color: #f09105 !important;
+		}
+	}
+}
+.section-title-border {
+	background-color: #f09105 !important;
+}
+.services-box {
+	&:hover {
+		i {
+			background-color: #f09105 !important;
+		}
+	}
+}
+.bg-custom {
+	background-color: #f09105 !important;
+}
+.btn-custom {
+	background-color: #f09105 !important;
+	border-color: #f09105 !important;
+	&:hover {
+		background-color: #e88d06 !important;
+		background-color: #e88d06 !important;
+		border-color: #e88d06 !important;
+		border-color: #e88d06 !important;
+	}
+	&:focus {
+		background-color: #e88d06 !important;
+		background-color: #e88d06 !important;
+		border-color: #e88d06 !important;
+		border-color: #e88d06 !important;
+	}
+	&:active {
+		background-color: #e88d06 !important;
+		background-color: #e88d06 !important;
+		border-color: #e88d06 !important;
+		border-color: #e88d06 !important;
+	}
+}
+.features-item-list {
+	li {
+		&:before {
+			background-color: #f09105 !important;
+		}
+	}
+}
+.process-left-icon-1 {
+	i {
+		background-color: #f09105 !important;
+	}
+}
+.process-left-icon-2 {
+	i {
+		background-color: #f09105 !important;
+	}
+}
+.btn-custom.active {
+	background-color: #e88d06 !important;
+	border-color: #e88d06 !important;
+}
+.btn-custom.focus {
+	background-color: #e88d06 !important;
+	border-color: #e88d06 !important;
+}
+.open {
+	>.dropdown-toggle.btn-custom {
+		background-color: #e88d06 !important;
+		border-color: #e88d06 !important;
+	}
+}
+}
